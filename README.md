@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Calculadora de Préstamos – Proyecto Final JavaScript
 
-## Getting Started
+## a. Descripción del proyecto
 
-First, run the development server:
+Este proyecto es una **Calculadora de Préstamos** desarrollada con **Next.js**, **React** y **TailwindCSS**, cuyo propósito es permitir al usuario calcular de manera inmediata:
+
+- La **cuota mensual**.
+- El **total a pagar** durante todo el préstamo.
+- El **total en intereses**.
+- La **tabla completa de amortización** mediante el sistema francés.
+
+El sistema realiza los cálculos utilizando las fórmulas financieras establecidas en el documento del proyecto, incluyendo la conversión de tasa de interés anual a tasa mensual, la fórmula para cuota fija y los cálculos mes a mes del capital amortizado, intereses y saldo pendiente.
+
+El diseño es completamente **responsivo**, garantizando una visualización óptima tanto en dispositivos móviles como en pantallas de escritorio.
+
+---
+
+## b. Instrucciones para ejecutar localmente
+
+Sigue los pasos a continuación para ejecutar el proyecto en tu máquina:
+
+### 1. Clonar el repositorio
 
 ```bash
+git clone https://github.com/tu-usuario/tu-repo.git
+2. Entrar en la carpeta del proyecto
+cd tu-repo
+3. Instalar dependencias
+npm install
+4. Ejecutar el entorno de desarrollo
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+5. Abrir el proyecto en tu navegador
+Una vez que el servidor esté corriendo, abre:
+
+http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## c. Capturas
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+<img width="1895" height="937" alt="image" src="https://github.com/user-attachments/assets/b4df222c-3fc6-4bb3-b47c-4c8c682b4d8c" />
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<img width="1882" height="942" alt="image" src="https://github.com/user-attachments/assets/c87f7d45-14be-4d27-9d0c-7cb268aabf2d" />
 
-## Learn More
+<img width="1883" height="939" alt="image" src="https://github.com/user-attachments/assets/66f19c8e-2a91-4737-a76a-feb86d4467fd" />
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
